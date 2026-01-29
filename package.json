@@ -1,0 +1,22 @@
+{
+  "name": "ecom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix BACKEND && npm install --prefix ADMIN && npm run build --prefix ADMIN",
+    "start": "npm run start --prefix BACKEND"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chael250/ECOM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Chael250/ECOM/issues"
+  },
+  "homepage": "https://github.com/Chael250/ECOM#readme"
+}
